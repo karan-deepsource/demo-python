@@ -3,3 +3,5 @@
 *FIRST, a, b = [1, 2, 3]
 
 import os
+
+open("foo")
