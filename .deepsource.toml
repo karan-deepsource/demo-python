@@ -20,3 +20,7 @@ name = "javascript"
   environment = ["browser"]
   plugins = ["react"]
   style_guide = "airbnb"
+
+[[transformers]]
+enabled = true
+name = "prettier"
