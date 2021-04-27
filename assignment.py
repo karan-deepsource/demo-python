@@ -6,9 +6,11 @@ import os
 
 open("foo")
 
-a = list([i for i in range(10)])
+a = list(range(10))
 
 
-def foo(a=[1]):
+def foo(a=None):
+  if a is None:
+    a = [1]
   a.append(*a)
   return a
