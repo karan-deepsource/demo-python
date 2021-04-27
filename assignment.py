@@ -5,3 +5,10 @@
 import os
 
 open("foo")
+
+
+import sys
+
+def foo(a=[1]):
+  a.append(*a)
+  return a
