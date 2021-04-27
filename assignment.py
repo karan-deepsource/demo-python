@@ -6,8 +6,8 @@ import os
 
 open("foo")
 
+a = list([i for i in range(10)])
 
-import sys
 
 def foo(a=[1]):
   a.append(*a)
