@@ -11,9 +11,9 @@ class BaseOne:
         self.base_one = 2
 
 
-class Child(Base, BaseOne):
+class Child(Base, BaseOne, Base, BaseOne):
     """Some Child class"""
 
 
-class ChildOne(Base, BaseOne, abc.ABC, abc.ABCMeta):
+class ChildOne(Base, BaseOne, Base, BaseOne, abc.ABC, abc.ABCMeta, abc.ABCMeta):
     """Class with duplicate bases"""
