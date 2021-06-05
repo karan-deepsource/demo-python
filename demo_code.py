@@ -16,7 +16,9 @@ class BaseNumberGenerator:
     def __init__(self):
         self.limits = (1, 10)
 
-    def get_number(self, min_max=[]):
+    def get_number(self, min_max=None):
+        if min_max is None:
+            min_max = []
         raise NotImplemented
 
     def smethod():
