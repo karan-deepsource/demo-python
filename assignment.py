@@ -5,3 +5,6 @@
 import os
 
 open("foo")
+
+def foo(foo=[]):
+  return [*foo]
