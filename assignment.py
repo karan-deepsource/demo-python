@@ -6,5 +6,7 @@ import os
 
 open("foo")
 
-def foo(foo=[]):
+def foo(foo=None):
+  if foo is None:
+    foo = []
   return [*foo]
