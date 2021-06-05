@@ -9,13 +9,16 @@ import subprocess
 AWS_SECRET_KEY = "d6s$f9g!j8mg7hw?n&2"
 
 
+
 class BaseNumberGenerator:
     """Declare a method -- `get_number`."""
 
     def __init__(self):
         self.limits = (1, 10)
 
-    def get_number(self, min_max):
+    def get_number(self, min_max=None):
+        if min_max is None:
+            min_max = []
         raise NotImplemented
 
     def smethod():
