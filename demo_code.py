@@ -23,10 +23,9 @@ class BaseNumberGenerator:
 
     smethod = staticmethod(smethod)
 
+    @classmethod
     def cmethod(cls, something):
         """class method-to-be"""
-
-    cmethod = classmethod(cmethod)
 
 
 class RandomNumberGenerator:
