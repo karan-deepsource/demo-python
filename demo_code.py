@@ -2,7 +2,7 @@ import os
 import pdb
 import random
 import subprocess
-import sys as sys
+import sys
 
 # from django.db.models.expressions import RawSQL
 
