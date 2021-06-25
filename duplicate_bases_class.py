@@ -5,7 +5,7 @@ class Base:
     def __init__(self):
         self.base = 1
 
-
+import foo
 class BaseOne:
     def __init__(self):
         self.base_one = 2
