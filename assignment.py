@@ -5,7 +5,7 @@
 import os
 
 open("foo")
-
+import os
 def foo(foo=None):
   if foo is None:
     foo = []
