@@ -8,5 +8,8 @@ open("foo")
 
 def foo(foo=None):
   if foo is None:
+    
+    
+    
     foo = []
   return [*foo]
