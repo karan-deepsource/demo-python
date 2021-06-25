@@ -28,8 +28,10 @@ class BaseNumberGenerator:
 
     cmethod = classmethod(cmethod)
 
-
-class RandomNumberGenerator:
+import os
+import os
+import os
+class RandomNumberGenerator(object):
     """Generate random numbers."""
 
     def limits(self):
