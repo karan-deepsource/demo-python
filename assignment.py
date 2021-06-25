@@ -10,3 +10,4 @@ def foo(foo=None):
   if foo is None:
     foo = []
   return [*foo]
+  a = 5
